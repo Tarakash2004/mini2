@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: gray;
+        }
+        .head
+        {
+            font-size: 100px;
+            text-align: center;
+        }
+        .form
+        {
+            margin-top: 300px;
+            margin: auto;
+            background-color: rgb(53, 50, 50);
+            width: 50%;
+            height: 1200px;
+            border-radius: 5px;
+        }
+        .form-content1 label{
+            margin: 20px;
+            font-size: 30px;
+            color: yellow;
+    
+        }
+        .form-content1 input
+        {
+            margin: 20px;
+            width: 50%;
+             height: 30px;
+        }
+        .form-content1 select
+        {
+            margin: 20px;
+            width: 50%;
+            height: 30px;
+        }
+        .sub-form
+        {
+        
+            font-size: 30px;
+            color: yellow;
+        }
+        .form-content2 label
+        {
+            margin: 20px;
+            font-size: 30px;
+            color: yellow;
+        }
+        .form-content3 label
+        {
+            margin: 20px;
+            font-size: 30px;
+            color: yellow;
+        }
+        .form-content4 label
+        {
+            margin: 20px;
+            font-size: 30px;
+            color: yellow;
+        }
+        .form-content4 textarea
+        {
+            margin: 20px;
+        }
+        .button input
+        {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">SURVEY FORM</div>
+
+    <div class="form">
+        <form action="#">
+            <div class="form-content1">
+                <label for="name">NAME</label>
+                <br>
+    
+                <input type="text" id="name" placeholder="enter your name">
+            </div>
+            <div class="form-content1">
+                <label for="email">EMAIL</label>
+                <br>
+                <input type="email" id="email" placeholder="enter your gmail">
+            </div>
+            <div class="form-content1">
+                <label for="age">AGE</label>
+                <br>
+                <input type="date" id="age">
+            </div>
+            <div class="form-content1">
+                <label for="purpose">Which option best describes you?</label>
+                <br>
+                <select name="role" id="role" value="role">
+                    <option value="student">student</option>
+                    <option value="faculty">faculty</option>
+                    <option value="intern">intern</option>
+                    <option value="other">other</option>
+
+                </select>
+
+            </div>
+            <div class="form-content2">
+                
+                <div class="sub-form">
+                    <label for="ratio">
+                        would you recomment to a frients
+                     </label>
+                </div>
+                 <label for="radio1">
+                    <input type="radio" id="radio1" name="radio">yes</input>
+                 </label>
+                 <br>
+                 <label for="radio2">
+                    <input type="radio" id="radio2" name="radio">no</input>
+                 </label>
+                 <br>
+                 <label for="radio3">
+                    <input type="radio" id="radio3" name="radio">maybe</input>
+                 </label>
+            </div>
+            <br><br><br>
+            <div class="form-content3">
+                <label for="contents">
+                    enter your programming languege you know
+                </label>
+                <br>
+                <label for="int1">
+                    <input type="checkbox" id="int1">c</input>
+                </label>
+                <br>
+                <label for="int2">
+                    <input type="checkbox" id="int2">++c</input>
+                </label>
+                <br>
+                <label for="int3">
+                    <input type="checkbox" id="int3">python</input>
+                </label>
+                <br>
+                <label for="int4">
+                    <input type="checkbox" id="int4">java</input>
+                </label>
+                <br>
+                <label for="int5">
+                    <input type="checkbox" id="int5">shift</input>
+                </label>
+            </div>
+            <br><br><br>
+            <div class="form-content4">
+                <label for="comment"> enter your comment</label>
+                <br>
+                <textarea name="enter your comment" id="comment" cols="30" rows="10">enter your suggestion</textarea>
+            </div>
+            <div class="button">
+                <input type="submit" ></input>
+            </div>
+          
+            
+        </form>
+    </div>
+</body>
+</html>
